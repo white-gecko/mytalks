@@ -1,28 +1,29 @@
 <http://example.org/NatanaelArndt> <http://purl.org/dc/elements/1.1/description> "[AKSW/Universit\u00E4t Leipzig](http://aksw.org/)" <http://example.org/> .
+<http://example.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://example.org/> .
 <http://example.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> <http://example.org/> .
 <http://example.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/name> "Natanael Arndt" <http://example.org/> .
 <http://example.org/icwe2017> <http://purl.org/dc/elements/1.1/date> "2017-06-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://example.org/> .
 <http://example.org/icwe2017> <http://schema.org/location> "Rome" <http://example.org/> .
 <http://example.org/icwe2017> <http://schema.org/performer> <http://example.org/NatanaelArndt> <http://example.org/> .
-<http://example.org/icwe2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Decentralized Evolution and Consolidation of RDF Graphs" <http://example.org/> .
 <http://example.org/icwe2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> <http://example.org/> .
+<http://example.org/icwe2017> <http://www.w3.org/2000/01/rdf-schema#label> "Decentralized Evolution and Consolidation of RDF Graphs" <http://example.org/> .
 <http://example.org/informatik2017> <http://purl.org/dc/elements/1.1/date> "2017-09-28"^^<http://www.w3.org/2001/XMLSchema#date> <http://example.org/> .
-<http://example.org/informatik2017> <http://schema.org/location> "Rome" <http://example.org/> .
+<http://example.org/informatik2017> <http://schema.org/location> "Chemnitz" <http://example.org/> .
 <http://example.org/informatik2017> <http://schema.org/performer> <http://example.org/NatanaelArndt> <http://example.org/> .
-<http://example.org/informatik2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "A Method for Distributed and Collaborative Curation of RDF Datasets Utilizing the Quit Stack" <http://example.org/> .
 <http://example.org/informatik2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> <http://example.org/> .
+<http://example.org/informatik2017> <http://www.w3.org/2000/01/rdf-schema#label> "A Method for Distributed and Collaborative Curation of RDF Datasets Utilizing the Quit Stack" <http://example.org/> .
 <http://example.org/ldow2016> <http://purl.org/dc/elements/1.1/date> "2016-04-12"^^<http://www.w3.org/2001/XMLSchema#date> <http://example.org/> .
 <http://example.org/ldow2016> <http://schema.org/location> "Montr\u00E9al" <http://example.org/> .
 <http://example.org/ldow2016> <http://schema.org/performer> <http://example.org/NatanaelArndt> <http://example.org/> .
-<http://example.org/ldow2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Structured Feedback: A Distributed Protocol for Feedback and Patches on the Web of Data" <http://example.org/> .
 <http://example.org/ldow2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> <http://example.org/> .
+<http://example.org/ldow2016> <http://www.w3.org/2000/01/rdf-schema#label> "Structured Feedback: A Distributed Protocol for Feedback and Patches on the Web of Data" <http://example.org/> .
 <http://example.org/semantics2015> <http://purl.org/dc/elements/1.1/date> "2015-09-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://example.org/> .
 <http://example.org/semantics2015> <http://schema.org/location> "Vienna" <http://example.org/> .
 <http://example.org/semantics2015> <http://schema.org/performer> <http://example.org/NatanaelArndt> <http://example.org/> .
-<http://example.org/semantics2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Knowledge Base Shipping to the Linked Open Data Cloud" <http://example.org/> .
 <http://example.org/semantics2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> <http://example.org/> .
+<http://example.org/semantics2015> <http://www.w3.org/2000/01/rdf-schema#label> "Knowledge Base Shipping to the Linked Open Data Cloud" <http://example.org/> .
 <http://example.org/semantics2016> <http://purl.org/dc/elements/1.1/date> "2016-09-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://example.org/> .
 <http://example.org/semantics2016> <http://schema.org/location> "Leipzig" <http://example.org/> .
 <http://example.org/semantics2016> <http://schema.org/performer> <http://example.org/NatanaelArndt> <http://example.org/> .
-<http://example.org/semantics2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Distributed Collaboration on RDF Datasets Using Git: Towards the Quit Store" <http://example.org/> .
 <http://example.org/semantics2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> <http://example.org/> .
+<http://example.org/semantics2016> <http://www.w3.org/2000/01/rdf-schema#label> "Distributed Collaboration on RDF Datasets Using Git: Towards the Quit Store" <http://example.org/> .
