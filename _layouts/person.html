@@ -1,0 +1,14 @@
+---
+layout: default
+rdf_prefix_path: _data/prefixes.pref
+---
+<div class="person">
+  <h1>{{page.rdf | rdf_property: "foaf:name"}}</h1>
+  <strong>homepage:</strong> {{page.rdf | rdf_property: "foaf:homepage"}}
+  {% assign talks = page.rdf | sparql_query: "select ?event {?event a schema:Event ; schema:performer ?resourceUri ; dc:date ?date } ORDER BY ?date" %}
+  <ul>
+    {% for talk in talks %}
+    <li>{{ talk.event | rdf_property: "dc:date" | date: "%Y" }}: <a href="{{ talk.event.page_url }}">{{ talk.event | rdf_property: "rdfs:label" }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
