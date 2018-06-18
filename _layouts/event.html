@@ -6,13 +6,13 @@ rdf_prefix_path: _data/prefixes.pref
   {{page.rdf}}
 </div>
 
+<h1>{{ talk.event | rdf_property: "rdfs:label" }}</h1>
+
 <dl>
   <dt>Date</dt>
   <dd>{{ talk.event | rdf_property: "dc:date" | date: "%Y" }}</dd>
   <dt>Location</dt>
   <dd>{{ talk.event | rdf_property: "schema:location" }}</dd>
-  <dt>Titel</dt>
-  <dd>{{ talk.event | rdf_property: "rdfs:label" }}</dd>
   <dt>Performer</dt>
   {% assign performer = talk.event | rdf_property: "schema:performer" %}
   <dd><a href="{{ performer.page_url }}">{{ performer | rdf_property: "foaf:name" }}</a></dd>

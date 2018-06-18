@@ -4,11 +4,25 @@ rdf_prefix_path: _data/prefixes.pref
 ---
 <div class="person">
   <h1>{{page.rdf | rdf_property: "foaf:name"}}</h1>
-  <strong>homepage:</strong> {{page.rdf | rdf_property: "foaf:homepage"}}
-  {% assign talks = page.rdf | sparql_query: "select ?event {?event a schema:Event ; schema:performer ?resourceUri ; dc:date ?date } ORDER BY ?date" %}
-  <ul>
+  <dl>
+    <dt>homepage</dt>
+    <dd><a hreF="{{page.rdf | rdf_property: "foaf:homepage"}}">{{page.rdf | rdf_property: "foaf:homepage"}}</a></dd>
+  </dl>
+  {% assign talks = page.rdf | sparql_query: "select ?event {?event a schema:Event ; schema:performer ?resourceUri ; dc:date ?date } ORDER BY DESC(?date)" %}
+  {% assign today = "now" | date: "%Y-%m-%d" %}
     {% for talk in talks %}
-    <li>{{ talk.event | rdf_property: "dc:date" | date: "%Y" }}: <a href="{{ talk.event.page_url }}">{{ talk.event | rdf_property: "rdfs:label" }}</a></li>
+    {% assign event_date = talk.event | rdf_property: "dc:date" | date: "%Y-%m-%d" %}
+    {% if event_date == today %}
+    <div class="alert alert-info">
+    {% else %}
+    <div class="alert alert-light">
+    {% endif %}
+      <strong>
+        {{ talk.event | rdf_property: "rdfs:label" }}
+      </strong>
+        <p class="card-text">{{ talk.event | rdf_property: "dc:date" | date: "%Y" }}, {{ talk.event | rdf_property: "schema:location" }}</p>
+        <a href="{{ talk.event.page_url }}" class="btn btn-primary">Ansehen</a>
+    </div>
+    <div></div>
     {% endfor %}
-  </ul>
 </div>
