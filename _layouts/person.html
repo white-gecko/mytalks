@@ -14,6 +14,7 @@ rdf_prefix_path: _data/prefixes.pref
     {% assign event_date = talk.event | rdf_property: "dc:date" | date: "%Y-%m-%d" %}
     {% if event_date == today %}
     <div class="alert alert-info">
+      <span style="color: red">Heute:</span>
     {% else %}
     <div class="alert alert-light">
     {% endif %}
