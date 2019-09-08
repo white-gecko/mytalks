@@ -7,6 +7,7 @@
 <http://example.org/icwe2017> <http://schema.org/performer> <http://example.org/NatanaelArndt> .
 <http://example.org/icwe2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://example.org/icwe2017> <http://www.w3.org/2000/01/rdf-schema#label> "Decentralized Evolution and Consolidation of RDF Graphs" .
+<http://example.org/icwe2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://example.org/informatik2017> <http://purl.org/dc/elements/1.1/date> "2017-09-28"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://example.org/informatik2017> <http://schema.org/location> "Chemnitz" .
 <http://example.org/informatik2017> <http://schema.org/performer> <http://example.org/NatanaelArndt> .
