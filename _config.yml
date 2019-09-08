@@ -8,7 +8,7 @@ plugins:
 - jekyll-rdf
 
 jekyll_rdf:
-  path: "graph.nq"
+  path: "graph.nt"
   include_blank: false
   restriction: "SELECT ?resourceUri WHERE {?resourceUri ?p ?o}"
   default_template: "default"
