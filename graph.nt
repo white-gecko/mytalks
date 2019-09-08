@@ -46,3 +46,4 @@
 <http://example.org/webbr2018saopaulo> <http://schema.org/performer> <http://example.org/NatanaelArndt> .
 <http://example.org/webbr2018saopaulo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
 <http://example.org/webbr2018saopaulo> <http://www.w3.org/2000/01/rdf-schema#label> "Distributed Collaboration and Versioning of RDF Knowledge Graphs" .
+<http://example.org/www2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Event> .
