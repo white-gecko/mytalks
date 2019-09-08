@@ -1,4 +1,5 @@
 <http://example.org/MichaelMartin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/MichaelMartin> <http://xmlns.com/foaf/0.1/name> "Michael Martin" .
 <http://example.org/NatanaelArndt> <http://purl.org/dc/elements/1.1/description> "[AKSW/Universit\u00E4t Leipzig](http://aksw.org/)" .
 <http://example.org/NatanaelArndt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://example.org/NatanaelArndt> <http://xmlns.com/foaf/0.1/homepage> <http://aksw.org/NatanaelArndt> .
